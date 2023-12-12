@@ -33,7 +33,7 @@ body {
 	padding-inline: 10px;
 }
 
-.nav a {
+.nav a, .top-header a {
 	text-decoration: none;
 	color: #000
 }
@@ -147,7 +147,7 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-
+	font-size: x-large;
 }
 .quote__author {
 	font-family: Spectral;
