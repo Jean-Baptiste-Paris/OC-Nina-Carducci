@@ -102,7 +102,6 @@ h4,
 .container-lg,
 .container-md,
 .container-sm {
-	width: 100%;
 	padding-right: var(--bs-gutter-x, 0.75rem);
 	padding-left: var(--bs-gutter-x, 0.75rem);
 	margin-right: auto;
@@ -532,7 +531,6 @@ ul ol {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 1%;
-	padding-bottom: 5%;
 }
 
 @media only screen and (max-width: 1140px) {
@@ -544,6 +542,7 @@ ul ol {
 @media only screen and (max-width: 600px) {
 	.gallery-items-row.row {
 		grid-template-columns: 1fr;
+		padding-bottom: 5%;
 	}
 }
 
