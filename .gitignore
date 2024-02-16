@@ -1,2 +1,4 @@
 .idea
 .DS_Store
+documents/*
+assets/favicon/about.txt
